@@ -1,0 +1,8 @@
+#Given a range of numbers. Iterate from o^th number to the end number and print the sum of the current number and previous number
+
+
+n=int(input('enter your number:' ))
+for i in range(n):
+    previous_number=i-1
+    number=previous_number+i
+    print(number)
